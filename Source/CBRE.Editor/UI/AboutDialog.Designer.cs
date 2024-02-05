@@ -86,7 +86,7 @@ namespace CBRE.Editor.UI
             this.label8.Location = new System.Drawing.Point(12, 304);
             this.label8.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(509, 2);
+            this.label8.Size = new System.Drawing.Size(553, 2);
             this.label8.TabIndex = 13;
             // 
             // DescriptionLabel
@@ -139,12 +139,12 @@ namespace CBRE.Editor.UI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.GitHubLink.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GitHubLink.Location = new System.Drawing.Point(165, 0);
+            this.GitHubLink.Location = new System.Drawing.Point(180, 0);
             this.GitHubLink.Name = "GitHubLink";
             this.GitHubLink.Size = new System.Drawing.Size(341, 23);
             this.GitHubLink.TabIndex = 1;
             this.GitHubLink.TabStop = true;
-            this.GitHubLink.Text = "https://github.com/AestheticalZ/cbre-ex";
+            this.GitHubLink.Text = "https://github.com/AnalogFeelings/cbre-ex";
             this.GitHubLink.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
@@ -171,7 +171,7 @@ namespace CBRE.Editor.UI
             this.LicenseLink.Size = new System.Drawing.Size(341, 23);
             this.LicenseLink.TabIndex = 3;
             this.LicenseLink.TabStop = true;
-            this.LicenseLink.Text = "https://github.com/AestheticalZ/cbre-ex/blob/main/LICENSE";
+            this.LicenseLink.Text = "https://github.com/AnalogFeelings/cbre-ex/blob/main/LICENSE";
             this.LicenseLink.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ExtraLicenseLink
@@ -185,7 +185,7 @@ namespace CBRE.Editor.UI
             this.ExtraLicenseLink.Size = new System.Drawing.Size(341, 25);
             this.ExtraLicenseLink.TabIndex = 4;
             this.ExtraLicenseLink.TabStop = true;
-            this.ExtraLicenseLink.Text = "https://github.com/AestheticalZ/cbre-ex#licensing";
+            this.ExtraLicenseLink.Text = "https://github.com/AnalogFeelings/cbre-ex#licensing";
             this.ExtraLicenseLink.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
@@ -207,7 +207,7 @@ namespace CBRE.Editor.UI
             this.label5.Location = new System.Drawing.Point(12, 469);
             this.label5.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(509, 2);
+            this.label5.Size = new System.Drawing.Size(553, 2);
             this.label5.TabIndex = 16;
             // 
             // AboutDialog

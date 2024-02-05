@@ -77,7 +77,7 @@
     <None Include="Resources\CBRE.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Pastel" Version="4.0.2" />
+    <PackageReference Include="Pastel" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CBRE.Localization\CBRE.Localization.csproj">

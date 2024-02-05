@@ -16,7 +16,7 @@ namespace CBRE.Editor.UI
 			LicenseLink.Click += (s, e) => Mediator.Publish(EditorMediator.OpenWebsite, LicenseLink.Text);
 			ExtraLicenseLink.Click += (s, e) => Mediator.Publish(EditorMediator.OpenWebsite, ExtraLicenseLink.Text);
 
-			DescriptionLabel.Links.Add(261, 19, "http://logic-and-trick.com");
+			DescriptionLabel.Links.Add(264, 19, "http://logic-and-trick.com");
 			DescriptionLabel.LinkClicked += (s, e) => Mediator.Publish(EditorMediator.OpenWebsite, e.Link.LinkData.ToString());
 		}
 	}

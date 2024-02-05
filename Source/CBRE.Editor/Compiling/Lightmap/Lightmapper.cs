@@ -199,8 +199,6 @@ namespace CBRE.Editor.Compiling.Lightmap
             {
                 UpdateProgress(exportForm, Local.LocalString("progress.lightmapper.finding_model_faces"), 0.03f);
 
-                map.UpdateModels(document);
-
                 Dictionary<string, ModelReference> modelReferences = document.GetMemory<Dictionary<string, ModelReference>>("ModelCache");
 
                 foreach (Entity model in modelEntities)
@@ -219,6 +217,8 @@ namespace CBRE.Editor.Compiling.Lightmap
                     if (!modelReferences.ContainsKey(modelValue)) continue;
 
                     ModelReference modelReference = modelReferences[modelValue];
+
+                    if (modelReference == null) continue;
 
                     List<MatrixF> modelTransforms = modelReference.Model.GetTransforms();
                     IEnumerable<IGrouping<int, Mesh>> meshGroups = modelReference.Model.GetActiveMeshes().GroupBy(x => x.SkinRef);

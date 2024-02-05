@@ -1,0 +1,169 @@
+version: 2
+updates:
+  # For the common package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Common"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the datastructures package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.DataStructures"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the editor package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Editor"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the filesystem package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.FileSystem"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the graphics package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Graphics"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the packages package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Packages"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the providers package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Providers"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the quickforms package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.QuickForms"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the smf converter package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.SMFConverter"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the settings package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Settings"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the UI package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.UI"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"
+
+    # For the updater package.
+  - package-ecosystem: "nuget"
+    directory: "/Source/CBRE.Updater"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "enhancement"
+    assignees:
+      - "analogfeelings"
+    reviewers:
+      - "analogfeelings"

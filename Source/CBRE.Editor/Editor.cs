@@ -45,10 +45,10 @@ namespace CBRE.Editor
 		
 		public static Editor Instance { get; private set; }
 
-		private const string API_RELEASES_URL = "https://api.github.com/repos/AestheticalZ/cbre-ex/releases/latest";
-		private const string GIT_LATEST_RELEASE_URL = "https://github.com/AestheticalZ/cbre-ex/releases/latest";
+		private const string API_RELEASES_URL = "https://api.github.com/repos/AnalogFeelings/cbre-ex/releases/latest";
+		private const string GIT_LATEST_RELEASE_URL = "https://github.com/AnalogFeelings/cbre-ex/releases/latest";
 
-		public const string GITHUB_REPORT_BUG_URL = "https://github.com/AestheticalZ/cbre-ex/issues/new?assignees=AestheticalZ&labels=bug&template=bug_report.md&title=";
+		public const string GITHUB_REPORT_BUG_URL = "https://github.com/AnalogFeelings/cbre-ex/issues/new?assignees=AnalogFeelings&labels=bug&template=bug_report.md&title=";
 
 		public bool CaptureAltPresses { get; set; }
 		public bool ShowEntityErrorForm = true;
@@ -230,7 +230,7 @@ namespace CBRE.Editor
 
 					//Github wants me to set a user agent, sure!
 					Client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
-					Client.DefaultRequestHeaders.Add("User-Agent", "AestheticalZ/cbre-ex");
+					Client.DefaultRequestHeaders.Add("User-Agent", "AnalogFeelings/cbre-ex");
 
 					JsonSerializerSettings DeserializeSettings = new JsonSerializerSettings
 					{

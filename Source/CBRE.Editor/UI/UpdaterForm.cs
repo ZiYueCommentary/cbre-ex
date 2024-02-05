@@ -60,7 +60,7 @@ namespace CBRE.Editor.UI
 			{
 				using (HttpClient Client = new HttpClient())
 				{
-					Client.DefaultRequestHeaders.Add("User-Agent", "AestheticalZ/cbre-ex");
+					Client.DefaultRequestHeaders.Add("User-Agent", "AnalogFeelings/cbre-ex");
 					
 					string DownloadedChecksum = await Client.GetStringAsync(ChecksumAsset.DownloadUrl);
 

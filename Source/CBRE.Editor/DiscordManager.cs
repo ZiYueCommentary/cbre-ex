@@ -22,7 +22,7 @@ namespace CBRE.Editor
                 new Button()
                 {
                     Label = "GitHub",
-                    Url = "https://github.com/AestheticalZ/cbre-ex"
+                    Url = "https://github.com/AnalogFeelings/cbre-ex"
                 }
             }
         };
